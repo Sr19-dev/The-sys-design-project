@@ -1,12 +1,21 @@
 marshalling json-
+
 handler- takes http requests sends back a response AND ALSO executes the program which decides what to do for a http request
+
 healthz- employs one or more handlers to check if the software which user demand exists for can actually cater to a user and external checks come from hardware companies like aws or kubernetes which let the same software scale up to cater to more users
+
 mux-
-http.ResponseWriter
+
+http.ResponseWriter-
+
 packages:
+
 os:
+
 net/http:
+
 log/slog:
+
 ---
 4 questions:
 HTTP Method: To submit a long URL to your server to be shortened, should the client send a GET request or a POST request? Why?
